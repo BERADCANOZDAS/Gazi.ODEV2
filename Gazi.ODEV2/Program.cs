@@ -9,22 +9,17 @@ namespace Gazi.ODEV2
             {
                 {
                     string ilk, son, c;
-                    Console.WriteLine("Bir dil seçiniz/Select a language(E/T)");
-                    string cev = Console.ReadLine().ToUpper();
+                    
+                   
                     Random rnd = new Random();
-                    if (cev == "E")
-                    {
-                        ilk = "Enter the starting number:";
-                        son = "Enter the ending number:";
-                        c = "Enter the count of numbers:";
+                    
+                    
 
-                    }
-                    else
-                    {
                         ilk = "Başlangıç sayısını giriniz:";
                         son = "Bitiş sayısı giriniz:";
                         c = "Sayı adeti gir:";
-                    }
+                    
+                    
 
                     Console.WriteLine(ilk);
                     byte bas = byte.Parse(Console.ReadLine());
@@ -51,10 +46,7 @@ namespace Gazi.ODEV2
                                 i--;
                                 break;
                             }
-                            else
-                            {
-                                numbers[i] = num;
-                            }
+                           
                         }
                     }
                     Array.Sort(numbers);
