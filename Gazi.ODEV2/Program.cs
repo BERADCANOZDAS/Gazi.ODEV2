@@ -9,12 +9,8 @@ namespace Gazi.ODEV2
             {
                 {
                     string ilk, son, c;
-                    
-                   
                     Random rnd = new Random();
-                    
-                    
-
+   
                         ilk = "Başlangıç sayısını giriniz:";
                         son = "Bitiş sayısı giriniz:";
                         c = "Sayı adeti gir:";
@@ -25,7 +21,6 @@ namespace Gazi.ODEV2
                     byte bas = byte.Parse(Console.ReadLine());
                     Console.WriteLine(son);
                     byte bit = byte.Parse(Console.ReadLine());
-
                     Console.WriteLine(c);
                     byte count = byte.Parse(Console.ReadLine());
 
@@ -43,7 +38,7 @@ namespace Gazi.ODEV2
                         {
                             if (numbers[j] == num)
                             {
-                                i--;
+                                
                                 break;
                             }
                            
